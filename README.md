@@ -1,27 +1,36 @@
-# ToDoList
+# To-Do List
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 18.2.2.
+## Overview
 
-## Development server
+The To-Do List is a simple application designed to help you manage and keep track of your tasks. With this app, you can add, edit, delete, and mark tasks as complete. It's built using [framework/language/technology], and it's intended to be user-friendly and efficient.
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+## Features
 
-## Code scaffolding
+- Add new tasks
+- Edit existing tasks
+- Delete tasks
+- Mark tasks as complete/incomplete
+- View tasks sorted by status (completed, pending)
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+## Getting Started
 
-## Build
+To get started with the To-Do List application, follow these steps:
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+### Prerequisites
 
-## Running unit tests
+Ensure you have the following installed on your machine:
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+- [Prerequisite 1] (e.g., Node.js, Python, etc.)
+- [Prerequisite 2] (e.g., a web browser, etc.)
 
-## Running end-to-end tests
+### Installation
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/yourusername/todo-list.git
 
-## Further help
+2. Navigate to the project directory:
+    cd to-do-list
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.dev/tools/cli) page.
+3. Start the application:
+    

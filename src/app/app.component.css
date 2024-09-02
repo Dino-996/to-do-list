@@ -1,0 +1,45 @@
+.my-container {
+  @apply text-center mx-2 px-2 py-4 my-3;
+}
+
+h1 {
+  @apply text-start ml-6 text-4xl font-thin tracking-tight bg-gradient-to-r from-secondary via-tertiary to-quaternary bg-clip-text text-transparent drop-shadow-md;
+}
+
+input[type='text'] {
+  @apply flex-1 border-2 text-white rounded-3xl py-1 px-4 mr-2 ml-2 bg-tertiary focus:ring-2 focus:ring-secondary focus:outline-none;
+}
+
+input[type='text'].editText {
+  @apply flex-1 border-2 text-primary rounded-3xl px-0 py-0 mr-0 ml-2 bg-transparent focus:ring-0 focus:outline-none;
+  border-color: rgba(0,0,0,0);
+}
+
+input[type='checkbox']:disabled {
+  @apply cursor-not-allowed;
+}
+
+.button-action {
+  @apply rounded-full m-2 p-3 border border-quaternary text-primary font-normal bg-tertiary transition-all duration-300 shadow-md;
+}
+
+.button-action:hover {
+  @apply text-white bg-secondary text-quaternary shadow-lg;
+}
+
+.button-icon {
+  @apply ml-3 w-8 h-8 rounded-full bg-tertiary border-2 border-quaternary text-primary transition-colors duration-300 flex items-center justify-center shadow-md;
+}
+
+.button-icon:hover {
+  @apply bg-secondary text-quaternary shadow-lg;
+}
+
+.button-icon:disabled {
+  @apply cursor-not-allowed shadow-none text-secondary border-2 border-quaternary;
+}
+
+.button-icon:disabled:hover {
+  @apply transition-none bg-tertiary text-secondary;
+}
+

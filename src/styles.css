@@ -1,1 +1,15 @@
-/* You can add global styles to this file, and also import other style files */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --primary-color: #1E201E;
+  --secondary-color: #3c3d37;
+  --tertiary-color: #697565;
+  --quaternary-color: #ecdfcc;
+}
+
+body {
+  background-color: var(--quaternary-color);
+}
+
