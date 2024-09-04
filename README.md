@@ -10,4 +10,3 @@ The To-Do List is a simple application designed to help you manage and keep trac
 - Edit existing tasks
 - Delete tasks
 - Mark tasks as complete/incomplete
-- View tasks sorted by status (completed, pending)
